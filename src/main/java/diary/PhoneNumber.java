@@ -1,4 +1,6 @@
 package diary;
 
-public class PhoneNumber {
+
+public interface PhoneNumber {
+    String getFormattedNumber();
 }
